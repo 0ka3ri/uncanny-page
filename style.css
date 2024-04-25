@@ -57,7 +57,7 @@ p {
   font-family: "Poppins";
 }
 
-menu.index {
+menu {
   margin: 4vw;
   padding: 0;
   display: flex;
@@ -75,7 +75,7 @@ a {
   color: inherit;
 }
 
-menu.index ul a {
+menu.index a {
   color: rgb(48, 0, 16);
 }
 
