@@ -57,7 +57,7 @@ p {
   font-family: "Poppins";
 }
 
-menu {
+menu.index {
   margin: 4vw;
   padding: 0;
   display: flex;
@@ -65,7 +65,7 @@ menu {
   align-items: center;
 }
 
-.ul-index {
+ul.index {
   list-style-type: circle;
   font-family: inherit;
 }
@@ -75,7 +75,11 @@ a {
   color: inherit;
 }
 
+menu.index ul a {
+  color: rgb(48, 0, 16);
+}
+
 footer {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
