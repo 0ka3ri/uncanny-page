@@ -31,55 +31,18 @@ header img {
   color: rgb(212, 212, 212);
 }
 
-h1, h2, h3, h4 {
-  font-family: "Courier Prime", monospace;
-}
-
-h1, h2 {
+main {
   margin: 4vw;
 }
 
-h3, h4 {
-  font-weight: 400;
-}
-
 h1 {
+  font-family: "Courier Prime", monospace;
   font-size: 5vw;
   margin-bottom: 1vw;
 }
 
-h2 {
-  margin-top: 0;
-  font-size: 2.5vw;
-}
-
-h3 {
-  font-size: 2vw;
-}
-
-h4 {
-  font-size: 1,5vw;
-  font-weight:600;
-}
-
 p {
   font-family: "Poppins";
-}
-
-section.introduction {
-  margin: 4vw;
-}
-
-menu.index {
-    padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-menu.index ul {
-  list-style-type: none;
-  font-family: inherit;
 }
 
 a {
