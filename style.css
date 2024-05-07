@@ -15,32 +15,20 @@ body {
   font-family: "Poppins";
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 10px black;
+main {
+  padding-left: 6vw;
+  padding-right: 4vw;
 }
 
-header img {
-  border-radius: 50%;
-}
 
-.line {
-  border: 1px solid;
-  color: rgb(212, 212, 212);
-}
+/*TEXTS*/
 
 h1, h2, h3, h4 {
   font-family: "Courier Prime", monospace;
 }
 
-h1, h2 {
-  margin: 4vw;
-}
-
 h3, h4 {
-  font-weight: 400;
+  font-weight: "regular";
 }
 
 h1 {
@@ -66,12 +54,25 @@ p {
   font-family: "Poppins";
 }
 
-section.introduction {
-  margin: 4vw;
+
+/*HEADER*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 10px black;
 }
 
+header img {
+  border-radius: 50%;
+}
+
+
+/*INDEX*/
+
 menu.index {
-    padding: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,14 +83,26 @@ menu.index ul {
   font-family: inherit;
 }
 
-a {
-  text-decoration: none; 
-  color: inherit;
-}
+
+/*FOOTER*/
 
 footer {
   margin-top: 2vw;
   display: flex;
   justify-content: center;
   justify-content: space-around;
+}
+
+
+
+/*OTHER ELEMENTS*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.line {
+  border: 1px solid;
+  color: rgb(212, 212, 212);
 }
