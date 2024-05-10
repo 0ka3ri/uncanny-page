@@ -7,40 +7,37 @@ html {
 
 body {
   margin: 2vw;
+  margin-right: 10vw;
+  margin-left: 10vw;
   padding: 1vw;
   border-radius: 15px;
   background-color: white;
   font-family: "Poppins";
 }
 
-header {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
+main {
+  padding-left: 6vw;
+  padding-right: 4vw;
 }
 
-.about-header {
-  margin-right: 4vw;
-  font-size: 3w;
-}
+
+/*TEXTS*/
 
 h1, h2, h3, h4 {
   font-family: "Courier Prime", monospace;
 }
 
-h1, h2 {
-  padding-left: 2vw;
-}
-
 h3, h4 {
-  font-weight: 400;
+  font-weight: "regular";
 }
 
 h1 {
-  font-size: 4.5vw;
+  font-size: 5vw;
+  margin-bottom: 1vw;
 }
 
 h2 {
+  margin-top: 0;
   font-size: 2.5vw;
 }
 
@@ -57,8 +54,24 @@ p {
   font-family: "Poppins";
 }
 
+
+/*HEADER*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 10px black;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+
+/*INDEX*/
+
 menu.index {
-  margin: 4vw;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -66,20 +79,30 @@ menu.index {
 }
 
 menu.index ul {
-  list-style-type: circle;
+  list-style-type: none;
   font-family: inherit;
 }
 
+
+/*FOOTER*/
+
+footer {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+
+
+/*OTHER ELEMENTS*/
+
 a {
-  text-decoration: none; 
+  text-decoration: none;
   color: inherit;
 }
 
-menu.index a {
-  color: rgb(48, 0, 16);
-}
-
-footer {
-  display: flex;
-  justify-content: center;
+.line {
+  border: 1px solid;
+  color: rgb(212, 212, 212);
 }
