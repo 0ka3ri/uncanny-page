@@ -72,12 +72,16 @@ header {
   border-bottom: rgb(212, 212, 212) solid 2px;
 }
 
-header img {
+header .logo {
   border-radius: 50%;
 }
 
 
 /*HEADER'S INDEX*/
+
+menu .hamburger-menu {
+  display: none;
+}
 
 menu.index {
   width: 20vw;
