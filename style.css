@@ -62,6 +62,16 @@ span {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 /*HEADER*/
 
@@ -72,18 +82,18 @@ header {
   border-bottom: rgb(212, 212, 212) solid 2px;
 }
 
-header .logo {
+.logo {
   border-radius: 50%;
 }
 
 
 /*HEADER'S INDEX*/
 
-menu .hamburger-menu {
+.hamburger-menu {
   display: none;
 }
 
-menu.index {
+.index {
   width: 20vw;
   margin-right: 0,5vw;
   padding: 0;
@@ -95,8 +105,8 @@ menu.index {
   transition: border-color .30s ease;
 }
 
-menu.index span {
-  display:flex;
+.index-title {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -105,7 +115,7 @@ menu.index span {
   cursor: pointer;
 }
 
-menu.index ul {
+.index ul {
   width: 18,5vw;
   font-family: inherit;
   color: rgb(107, 0, 84);
@@ -120,13 +130,13 @@ menu.index ul {
   box-shadow: 0px 5px 5px 0px rgb(138, 138, 138);
 }
 
-menu.index:hover {
+.index:hover {
   border-top: 1px dashed rgb(138, 138, 138);
   border-right: 1px dashed rgb(138, 138, 138);
   border-left: 1px dashed rgb(138, 138, 138);
 }
 
-menu.index:hover .dropdown-content {
+.index:hover .dropdown-content {
   display: block;
   animation: fadeIn 0.30s;
 }
@@ -149,19 +159,6 @@ footer {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-}
-
-
-/*OTHER ELEMENTS*/
-
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 

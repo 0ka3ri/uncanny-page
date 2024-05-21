@@ -1,26 +1,26 @@
 /* Breakpoint de tablet */
 @media (max-width: 768px) {
 
-  header .logo {
+  .logo {
     width: 85px;
     height: 85px;
   }
 
-  menu .index-title {
+  .index-title {
     display: none;
   }
 
-  menu .hamburger-menu {
+  .hamburger-menu {
     display: block;
     width: 60px;
     height: 60px;
   }
 
-  menu.index ul {
+  .index ul {
     margin-top: 50px;
   }
 
-  menu.index:hover {
+  .index:hover {
     border: none;
   }
 
@@ -44,17 +44,17 @@
 /* Breakpoint de mobile grande */
 @media (max-width: 480px) {
 
-  header .logo {
+  .logo {
     width: 80px;
     height: 80px;
   }
 
-  header .hamburger-menu {
+  .hamburger-menu {
     width: 50px;
     height: 50px;
   }
 
-  menu.index ul {
+  .index ul {
     margin-top: 45px;
   }
 
@@ -70,17 +70,17 @@
 /* Breakpoint de mobile chico */
 @media (max-width: 320px) {
 
-  header .logo {
+  .logo {
     width: 75px;
     height: 75px;
   }
 
-  header .hamburger-menu {
+  .hamburger-menu {
     width: 40px;
     height: 40px;
   }
 
-  menu.index ul {
+  .index ul {
     margin-top: 40px;
   }
 
@@ -96,6 +96,22 @@
     font-size: 14px;
   }
 }
+
+/*Print view*/
+
+@media print {
+  
+  html {
+    background-color: white;
+  }
+
+  header,
+  footer {
+    border: none;
+  }
+
+}
+
 
 
 
