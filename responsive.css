@@ -1,9 +1,23 @@
 /* Breakpoint de tablet */
-@media (max-width: 768px) {
+@media (max-width: 50rem) {
+
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  main {
+    margin: 0;
+    padding: 2rem;
+  }
 
   .logo {
-    width: 85px;
-    height: 85px;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .index {
+    width: 10rem;
   }
 
   .index-title {
@@ -12,8 +26,8 @@
 
   .hamburger-menu {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 4rem;
+    height: 4rem;
   }
 
   .index ul {
@@ -25,75 +39,116 @@
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   a {
-    font-size: 15px;
+    font-size: 0.9rem;
   }
 }
 
 /* Breakpoint de mobile grande */
-@media (max-width: 480px) {
+@media (max-width: 26rem) {
+
+  body {
+    margin: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  main {
+    padding: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 
   .logo {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .index {
+    width: 4rem;
+    height: 3rem;
   }
 
   .hamburger-menu {
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
   }
 
   .index ul {
     margin-top: 45px;
+    width: 6rem;
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
   }
 
   h1 {
-    font-size: 37px;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 17px;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  a {
+    font-size: 0.8rem;
   }
 }
 
 /* Breakpoint de mobile chico */
-@media (max-width: 320px) {
+@media (max-width: 20rem) {
+  
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
   .logo {
-    width: 75px;
-    height: 75px;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .index {
+    width: 3rem;
+    height: 2rem;
   }
 
   .hamburger-menu {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .index ul {
     margin-top: 40px;
+    padding-top: 0.5rem;
+    width: 5rem;
+    line-height: 1rem;
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 
   }
 
   p {
-    font-size: 14px;
+    font-size: 0.7rem;
+  }
+
+  a {
+    font-size: 0.7rem;
   }
 }
 
