@@ -1,4 +1,4 @@
-/* Breakpoint de tablet */
+/* Tablet Breakpoint */
 @media (max-width: 50rem) {
 
   body {
@@ -51,7 +51,7 @@
   }
 }
 
-/* Breakpoint de mobile grande */
+/* Big Mobile Breakpoint */
 @media (max-width: 26rem) {
 
   body {
@@ -105,7 +105,7 @@
   }
 }
 
-/* Breakpoint de mobile chico */
+/* Small mobile Breakpoint */
 @media (max-width: 20rem) {
   
   body {
@@ -163,6 +163,14 @@
   header,
   footer {
     border: none;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .index-title {
+    display: flex;
   }
 
 }
