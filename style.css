@@ -45,13 +45,14 @@ h2 {
   font-size: 2rem;
 }
 
+
 p {
   font-family: "Poppins";
   font-size: 1rem;
-  text-indent: 4%;
+  text-indent: 2%;
 }
 
-span {
+.index-title {
   font-family: inherit;
   font-size: 1.25rem;
 }
@@ -66,6 +67,13 @@ a:hover {
   text-decoration: underline;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.disclaimer {
+  font-size: 0.90rem;
+}
 
 /*HEADER*/
 
@@ -150,9 +158,18 @@ footer {
 }
 
 
+/*PARADOX SUBPAGES*/
+
+.subpage h2 {
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+
 /*CONTACT PAGE*/
 
-main#contact {
+#contact main {
   padding: 0;
 }
 
@@ -167,38 +184,41 @@ svg {
   padding-right: 0.5rem;
 }
 
-a.contact {
+#contact a {
   font-size: 1rem;
+}
+
+#contact .social-network {
   letter-spacing: 0.25em;
 }
 
 
 /*ABOUT PAGE*/
 
-main#about {
+#about main{
   padding: 0;
 }
 
-.about-content {
+#about .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-content ul {
+.content ul {
   padding: 0;
   letter-spacing: 0.10rem;
   list-style-type: none;
 }
 
-.about-content ul li {
+.content ul li {
   display: flex;
   align-items: center;
   margin: 1em;
 }
 
-.about-content ul img {
+.content ul img {
   width: 35px;
   padding-right: 0.50rem;
 }
