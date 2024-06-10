@@ -26,12 +26,8 @@ main {
 
 /*TEXTS*/
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: "Courier Prime", monospace;
-}
-
-h3, h4 {
-  font-weight: "regular";
 }
 
 h1 {
@@ -44,7 +40,6 @@ h2 {
   margin-top: 0;
   font-size: 2rem;
 }
-
 
 p {
   font-family: "Poppins";
@@ -164,6 +159,15 @@ footer {
   font-size: 1.7rem;
   margin-top: 3rem;
   margin-bottom: 0;
+}
+
+h3 {
+  font-weight: "regular";
+  margin-top: 3rem;
+}
+
+.subpage ol {
+  font-size: 0.90rem;
 }
 
 
