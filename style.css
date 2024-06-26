@@ -26,12 +26,8 @@ main {
 
 /*TEXTS*/
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: "Courier Prime", monospace;
-}
-
-h3, h4 {
-  font-weight: "regular";
 }
 
 h1 {
@@ -48,10 +44,10 @@ h2 {
 p {
   font-family: "Poppins";
   font-size: 1rem;
-  text-indent: 4%;
+  text-indent: 2%;
 }
 
-span {
+.index-title {
   font-family: inherit;
   font-size: 1.25rem;
 }
@@ -64,6 +60,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.disclaimer {
+  font-size: 0.90rem;
 }
 
 
@@ -150,9 +154,27 @@ footer {
 }
 
 
+/*PARADOX SUBPAGES*/
+
+#subpage h2 {
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: "regular";
+  margin-top: 3rem;
+}
+
+#subpage ol {
+  font-size: 0.90rem;
+}
+
+
 /*CONTACT PAGE*/
 
-main#contact {
+#contact main {
   padding: 0;
 }
 
@@ -167,38 +189,41 @@ svg {
   padding-right: 0.5rem;
 }
 
-a.contact {
+#contact a {
   font-size: 1rem;
+}
+
+#contact .social-network {
   letter-spacing: 0.25em;
 }
 
 
 /*ABOUT PAGE*/
 
-main#about {
+#about main{
   padding: 0;
 }
 
-.about-content {
+#about .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.about-content ul {
+.content ul {
   padding: 0;
   letter-spacing: 0.10rem;
   list-style-type: none;
 }
 
-.about-content ul li {
+.content ul li {
   display: flex;
   align-items: center;
   margin: 1em;
 }
 
-.about-content ul img {
+.content ul img {
   width: 35px;
   padding-right: 0.50rem;
 }
