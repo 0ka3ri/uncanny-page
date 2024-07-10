@@ -99,8 +99,6 @@ header {
   flex-direction: column;
   align-items: center;
   position: relative;
-  border-color: white;
-  transition: border-color .30s ease;
 }
 
 .index-title {
@@ -200,31 +198,51 @@ svg {
 
 /*ABOUT PAGE*/
 
-#about main{
+#about main {
   padding: 0;
 }
 
-#about .content {
+#about h1 {
+  font-size: 1.5rem;
+}
+
+.description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.content ul {
+.description ul {
   padding: 0;
   letter-spacing: 0.10rem;
   list-style-type: none;
+  width: 35em;
 }
 
-.content ul li {
+.description ul li {
   display: flex;
   align-items: center;
   margin: 1em;
 }
 
-.content ul img {
+.description ul img {
   width: 35px;
   padding-right: 0.50rem;
+}
+
+.repository {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.repository a {
+  letter-spacing: 0.10rem;
+  transition: letter-spacing 0.10s ease-in 0.05s;
+}
+
+.repository a:hover {
+  letter-spacing: 0.20rem;
 }
 
